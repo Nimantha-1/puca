@@ -1,0 +1,13 @@
+-- Create not_checked_received table
+CREATE TABLE not_checked_received (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    check_number VARCHAR(255) NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL
+);
+
+-- Create check_received table
+CREATE TABLE check_received (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    check_number VARCHAR(255) NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL
+);
